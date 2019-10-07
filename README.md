@@ -16,3 +16,6 @@ Pixi.js setup is already done. You just download pixi.js and then add it with a 
 Linking to mainJS.js caused lots of undefined errors trying to do DOM manipulation until async was added to the script tag. This lets the HTML get loaded first I guess.
 
 Looks like hosting on gh-pages doesn't require anything special to get it working.
+
+Less command:
+less-watch-compiler less css index.less
